@@ -1,0 +1,5 @@
+package com.xiaohua.xindongzhang.Visitor;
+
+public interface ComputerPart {
+	public void accept(ComputerPartVisitor computerPartVisitor);
+}
